@@ -7,7 +7,11 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Mega shop", style: TextStyle(fontFamily: "DMSans")),
+        title: Text("Mega shop",
+            style: TextStyle(
+              fontFamily: "DMSans",
+              fontWeight: FontWeight.bold,
+            )),
       ),
     );
   }
