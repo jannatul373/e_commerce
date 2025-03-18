@@ -6,13 +6,8 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Mega shop",
-            style: TextStyle(
-              fontFamily: "DMSans",
-              fontWeight: FontWeight.bold,
-            )),
-      ),
+      appBar: AppBar(title: Text("Mega shop"),
+       firstIcon: Iconsax),
     );
   }
 }
